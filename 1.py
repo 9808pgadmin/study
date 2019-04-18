@@ -13,23 +13,28 @@
 
 
 # 嵌套使用
-# def line(char,times):
-#     print(char * times)
-# # line("$",10)
-#
-# def lines(char,time):
-#     row = 0
-#     while row<5:
-#         line(char,time)
-#         row += 1
-# lines("#",5)
+def line(char,times):
+    """
+
+    :param char: 字符
+    :param times: 次数
+    """
+    print(char * times)
+# line("$",10)
+
+def lines(char,time):
+    row = 0
+    while row<5:
+        line(char,time)
+        row += 1
+lines("#",5)
 
 
 
 # 测试[i:j],[i:j:s]
-a=[0,1,2,3,4,5,6,7,8,9]
-b='123pyt123hon'
-c='0123456789'
+# a=[0,1,2,3,4,5,6,7,8,9]
+# b='123pyt123hon'
+# c='0123456789'
 # print(c[::-2])
 # print(b[::-1])
-print(val(b))
+# print(val(b))
